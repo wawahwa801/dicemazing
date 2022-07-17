@@ -197,7 +197,7 @@ MonoBehaviour:
     made of the deadly force, and touching it, while not killing you, will reset\r
     you to your last checkpoint. Each checkpoint will mark the end of a level. You
     have\r to end each level on the number one. Your number will be randomly determined\r
-    for you every time you move. Good Luck! Press S to Start!"
+    for you every few seconds. Good Luck! Press S to Start!"
 --- !u!222 &281035274
 CanvasRenderer:
   m_ObjectHideFlags: 0
