@@ -16,7 +16,7 @@ public class PressSStart : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.S))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 }
