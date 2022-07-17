@@ -9,18 +9,10 @@ public class trigger : MonoBehaviour
     {
         
     }
-    public GameObject nextLevel;
-    public GameObject wall;
+
+    // Update is called once per frame
     void Update()
     {
-        void OnTriggerEnter(Collider other)
-        {
-            if (other.gameObject.tag == "Player")
-            {
-                gameObject.SetActive(false);
-                nextLevel.Setactive(true);
-                wall.SetActive(true);
-            }
-        }
+        
     }
 }
