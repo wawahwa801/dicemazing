@@ -11,7 +11,7 @@ public class playerMovement : MonoBehaviour
 
     }
     public float moveSpeed = 5f;
-    public bool hold_roll = false;
+    public bool close = false;
     // Update is called once per frame
     void Update()
     {
@@ -23,11 +23,9 @@ public class playerMovement : MonoBehaviour
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
         else if (Input.GetKey(KeyCode.LeftArrow))
             transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
-        if (Input.GetKey(KeyCode.R))
-            hold_roll = true;
-        if (hold_roll != true)
+        if (Input.GetKeyDown(KeyCode.R))
+            close = true;
+        if (close == true)
             Application.Quit();
-        else
-            hold_roll = false;
     }
 }
