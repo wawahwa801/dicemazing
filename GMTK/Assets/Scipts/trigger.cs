@@ -13,6 +13,9 @@ public class trigger : MonoBehaviour
     public GameObject wall;
     public GameObject nextWin;
     public Transform respawnPoint;
+    public GameObject player1;
+    public Transform player2;
+    public Sprite diceOne;
     void Update()
     {
         
@@ -21,11 +24,18 @@ public class trigger : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            gameObject.SetActive(false);
-            nextLevel.SetActive(true);
-            wall.SetActive(true);
-            nextWin.SetActive(true);
-            respawnPoint.position = transform.position;
+            if (this.player1.GetComponent<SpriteRenderer>().sprite == diceOne)
+            {
+                gameObject.SetActive(false);
+                nextLevel.SetActive(true);
+                wall.SetActive(true);
+                nextWin.SetActive(true);
+                respawnPoint.position = transform.position;
+            }
+            else
+            {
+                player2.position = respawnPoint.position;
+            }
         }
     }
 }
