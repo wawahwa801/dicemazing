@@ -259,8 +259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You successfully completed the game. It was said that even today, you are
-    known for being the savior of mankind from the deadly
+  m_Text: You successfully completed this game made for the GMTK 2022 Game Jam!!
 --- !u!222 &108526506
 CanvasRenderer:
   m_ObjectHideFlags: 0
