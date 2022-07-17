@@ -2862,9 +2862,9 @@ MonoBehaviour:
   wall: {fileID: 773012568}
   nextWin: {fileID: 1985666161}
   respawnPoint: {fileID: 895340608}
-  player1: {fileID: 0}
-  player2: {fileID: 0}
-  diceOne: {fileID: 0}
+  player1: {fileID: 1251947621}
+  player2: {fileID: 1251947623}
+  diceOne: {fileID: 21300000, guid: 0060b5d281b79ab4faa5324eb4633cde, type: 3}
 --- !u!114 &375051509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5864,9 +5864,9 @@ MonoBehaviour:
   wall: {fileID: 1968053148}
   nextWin: {fileID: 0}
   respawnPoint: {fileID: 895340608}
-  player1: {fileID: 0}
-  player2: {fileID: 0}
-  diceOne: {fileID: 0}
+  player1: {fileID: 1251947621}
+  player2: {fileID: 1251947623}
+  diceOne: {fileID: 21300000, guid: 0060b5d281b79ab4faa5324eb4633cde, type: 3}
 --- !u!114 &826030478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7251,9 +7251,9 @@ MonoBehaviour:
   wall: {fileID: 389247881}
   nextWin: {fileID: 826030474}
   respawnPoint: {fileID: 895340608}
-  player1: {fileID: 0}
-  player2: {fileID: 0}
-  diceOne: {fileID: 0}
+  player1: {fileID: 1251947621}
+  player2: {fileID: 1251947623}
+  diceOne: {fileID: 21300000, guid: 0060b5d281b79ab4faa5324eb4633cde, type: 3}
 --- !u!114 &1389325898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8336,9 +8336,9 @@ MonoBehaviour:
   wall: {fileID: 1540404240}
   nextWin: {fileID: 375051505}
   respawnPoint: {fileID: 895340608}
-  player1: {fileID: 0}
-  player2: {fileID: 0}
-  diceOne: {fileID: 0}
+  player1: {fileID: 1251947621}
+  player2: {fileID: 1251947623}
+  diceOne: {fileID: 21300000, guid: 0060b5d281b79ab4faa5324eb4633cde, type: 3}
 --- !u!50 &1522167648
 Rigidbody2D:
   serializedVersion: 4
@@ -9673,9 +9673,9 @@ MonoBehaviour:
   wall: {fileID: 553657306}
   nextWin: {fileID: 1389325894}
   respawnPoint: {fileID: 895340608}
-  player1: {fileID: 0}
-  player2: {fileID: 0}
-  diceOne: {fileID: 0}
+  player1: {fileID: 1251947621}
+  player2: {fileID: 1251947623}
+  diceOne: {fileID: 21300000, guid: 0060b5d281b79ab4faa5324eb4633cde, type: 3}
 --- !u!114 &1985666165
 MonoBehaviour:
   m_ObjectHideFlags: 0
