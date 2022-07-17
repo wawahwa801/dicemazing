@@ -12,6 +12,7 @@ public class trigger : MonoBehaviour
     public GameObject nextLevel;
     public GameObject wall;
     public GameObject nextWin;
+    public Transform respawnPoint;
     void Update()
     {
         
@@ -24,6 +25,7 @@ public class trigger : MonoBehaviour
             nextLevel.SetActive(true);
             wall.SetActive(true);
             nextWin.SetActive(true);
+            respawnPoint.position = transform.position;
         }
     }
 }
