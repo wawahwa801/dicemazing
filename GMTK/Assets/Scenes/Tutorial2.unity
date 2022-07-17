@@ -193,12 +193,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: To move yourself, the dice, use the arrow keys or WASD. The walls are made
-    of a deadly cheeto plant, touching it will reset you to your last checkpoint.
-    Each checkpoint will mark the end of a level. Every time you finish a level,
-    you speed will be randomized by a dice. You also have to end a level on a sprite
-    (number) which is randomly determined for you by dice. Every few seconds, your
-    number will change. Press S to Start
+  m_Text: "To move yourself, the dice, use the arrow keys or WASD. The walls are
+    made of the deadly force, and touching it, while not killing you, will reset\r
+    you to your last checkpoint. Each checkpoint will mark the end of a level. You
+    have\r to end each level on the number one. Your number will be randomly determined\r
+    for you every time you move. Good Luck! Press S to Start!"
 --- !u!222 &281035274
 CanvasRenderer:
   m_ObjectHideFlags: 0

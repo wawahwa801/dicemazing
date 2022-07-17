@@ -240,7 +240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 153.15125, y: -58.068}
+  m_AnchoredPosition: {x: -161.79, y: -115.3}
   m_SizeDelta: {x: 192.3025, y: 45.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273295035
@@ -513,11 +513,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "the world has been taken over by cheetos and they kill everyone, ur chosen
-    to save it and you're given somethin that makes u invincible to cheese dust -
-    your power to roll a dice to escape in sticky situations. in return for your
-    life as a human, however, you also have to live as a dice and match your own
-    number\r"
+  m_Text: The world has been taken over by an unknown force that kill people. You're
+    chosen to save the world and you're given something that makes you invincible
+    to this force. With this thing, you have the power to save the world. in return
+    for your life as a human. You will have to live as a dice, risking you life to
+    win.
 --- !u!222 &983066493
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -709,7 +709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19, y: -56.074}
+  m_AnchoredPosition: {x: 62.3, y: -55.856}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1506390224
@@ -960,7 +960,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 34394f556e8b02e4185d357ff6ab6f26, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2d80fac0c4fca104d9d05318887e7326, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
