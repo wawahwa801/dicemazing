@@ -14,15 +14,16 @@ public class trigger : MonoBehaviour
     public GameObject nextWin;
     void Update()
     {
-        void OnTriggerEnter2D(Collider2D other)
+        
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
         {
-            if (other.gameObject.tag == "Player")
-            {
-                gameObject.SetActive(false);
-                nextLevel.SetActive(true);
-                wall.SetActive(true);
-                nextWin.SetActive(true);
-            }
+            gameObject.SetActive(false);
+            nextLevel.SetActive(true);
+            wall.SetActive(true);
+            nextWin.SetActive(true);
         }
     }
 }
