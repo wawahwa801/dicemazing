@@ -9,7 +9,7 @@ public class hitWall : MonoBehaviour
     {
         
     }
-
+    public Sprite diceOne;
     // Update is called once per frame
     void Update()
     {
@@ -21,6 +21,7 @@ public class hitWall : MonoBehaviour
         if (other.gameObject.tag == "wall")
         {
             transform.position = respawnPoint.position;
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = diceOne;
         }
     }
 }
